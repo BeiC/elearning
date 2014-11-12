@@ -148,3 +148,40 @@ h2 {
     padding-top: 30px;
     color: black;
 }
+
+#Poembox span.mock {
+    color: #001c80;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 5px 0 0;
+    padding: 15px 0;
+
+    line-height: normal;
+}
+
+#Poembox {
+    -webkit-box-shadow: 0px 2px 5px darkgrey;
+    -moz-box-shadow: 0px 2px 5px darkgrey;
+    box-shadow: 0px 2px 5px darkgrey;
+    display: table-cell;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(239, 239, 239, 0.59);
+    margin: 10px;
+    color: black;
+}
+
+.special {
+    color: #00ae25;
+    font-size: 16px;
+    margin: 0 5px 0 0;
+    height: 16px;
+    font-weight: bold;
+}
+
+.misfortune {
+    color: #a62200;
+    font-weight: bold;
+}
