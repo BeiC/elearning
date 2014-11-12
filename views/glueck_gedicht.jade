@@ -1,82 +1,336 @@
 extends layout
 block content
     link(rel='stylesheet', href='stylesheets/glueck.css')
-    script(src='javascripts/gluck.js')
+    script(src='javascripts/gluck2.js')
+    script(src='socket.io/socket.io.js')
+    script(src='javascripts/jqdialog.min.js')
     #Aufgabenbox
-        p Hier ist ein Gedicht über Glück. Bitte lies dieses Gedicht und klicke dann auf &nbsp;
-            b weiter
+        p Auf der linken Seite ist ein Gedicht über Glück. Bitte lies dir das Gedicht durch.
+        p Schreibe dann das Gedicht über &nbsp;
+            b Glück &nbsp;
+            | in ein Gedicht über &nbsp;
+            b Pech &nbsp;
+            | um!
+        p (Es muss sich nicht reimen)
+
     #wrapper
-        #Textbox
+        #Poembox
             h2.title Glück
             div.poem
                 div.text
-                    |Glück ist gar nicht mal so selten,
+                    span.special Glück
+                    | ist gar nicht mal so &nbsp;
+                    span.mock selten
+                    | ,
                     br
-                    |Glück wird überall beschert.
+                    span.special Glück
+                    | wird überall &nbsp;
+                    span.mock beschert
+                    | .
                     br
-                    |Vieles kann als Glück uns gelten,
+                    |Vieles kann als &nbsp;
+                    span.special Glück
+                    | uns gelten,
                     br
                     |was das Leben uns so lehrt.
                     br
                     br
-                    |Glück ist jeder neue Morgen,
+                    span.special Glück
+                    | ist jeder &nbsp;
+                    span.mock neue Morgen
+                    | ,
                     br
-                    |Glück ist bunte Blumenpracht,
+                    span.special Glück
+                    | ist &nbsp;
+                    span.mock bunte Blumenpracht
+                    | ,
                     br
-                    |Glück sind Tage ohne Sorgen,
+                    span.special Glück
+                    | sind Tage ohne &nbsp;
+                    span.mock Sorgen
+                    | ,
                     br
-                    |Glück ist, wenn man fröhlich lacht.
-                    br
-                    br
-                    |Glück ist Regen, wenn es heiß ist,
-                    br
-                    |Glück ist Sonne nach dem Guss.
-                    br
-                    |Glück ist, wenn ein Kind ein Eis isst,
-                    br
-                    |Glück ist auch ein lieber Gruß.
-                    br
-                    br
-                    |Glück ist Wärme, wenn es kalt ist,
-                    br
-                    |Glück ist weißer Meeresstrand.
-                    br
-                    |Glück ist Ruhe, die im Wald ist,
-                    br
-                    |Glück ist eine Freundeshand.
+                    span.special Glück
+                    | ist, wenn man &nbsp;
+                    span.mock fröhlich lacht
+                    | .
                     br
                     br
-                    |Glück ist eine stille Stunde,
+                    span.special Glück
+                    | ist &nbsp;
+                    span.mock Regen
+                    | , wenn es &nbsp;
+                    span.mock heiß
+                    | ist,
                     br
-                    |Glück ist auch ein gutes Buch.
+                    span.special Glück
+                    | ist &nbsp;
+                    span.mock Sonne
+                    | nach dem &nbsp;
+                    span.mock Guss
+                    | .
                     br
-                    |Glück ist eine frohe Runde,
+                    span.special Glück
+                    | ist, wenn ein &nbsp;
+                    span.mock Kind
+                    | ein &nbsp;
+                    span.mock Eis isst
+                    | ,
                     br
-                    |Glück ist freundlicher Besuch.
+                    span.special Glück
+                    | ist auch ein &nbsp;
+                    span.mock lieber Gruß
+                    | .
                     br
                     br
-                    |Glück ist niemals ortsgebunden,
+                    span.special Glück
+                    | ist &nbsp;
+                    span.mock Wärme
+                    | , wenn es &nbsp;
+                    span.mock kalt
+                    | ist,
                     br
-                    |Glück kennt keine Jahreszeit.
+                    span.special Glück
+                    | ist &nbsp;
+                    span.mock weißer Meeresstrand
+                    | .
                     br
-                    |Glück hat immer der gefunden,
+                    span.special Glück
+                    | ist &nbsp;
+                    span.mock Ruhe
+                    | , &nbsp;
+                    span.mock die im Wald ist
+                    | ,
                     br
-                    |der sich seines Lebens freut.
+                    span.special Glück
+                    | ist eine &nbsp;
+                    span.mock Freundeshand
+                    | .
                     br
                     br
-                    |Liebe schenken, Freude geben,
+                    span.special Glück
+                    | ist eine &nbsp;
+                    span.mock stille Stunde
+                    | ,
                     br
-                    |dankbar und zufrieden sein,
+                    span.special Glück
+                    | ist auch ein &nbsp;
+                    span.mock gutes Buch
+                    | .
                     br
-                    |ist das höchste Gut im Leben
+                    span.special Glück
+                    | ist eine &nbsp;
+                    span.mock frohe Runde
+                    | ,
                     br
-                    |und schließt alles Schöne ein.
+                    span.special Glück
+                    | ist &nbsp;
+                    span.mock freundlicher Besuch
+                    | .
+                    br
+                    br
+                    span.special Glück
+                    | ist niemals &nbsp;
+                    span.mock ortsgebunden
+                    | ,
+                    br
+                    span.special Glück
+                    | kennt keine Jahreszeit.
+                    br
+                    span.special Glück
+                    | hat immer der gefunden,
+                    br
+                    |der sich &nbsp;
+                    span.mock seines Lebens freut
+                    | .
+                    br
+                    br
+                    span.mock Liebe schenken
+                    | , &nbsp;
+                    span.mock Freude geben
+                    | ,
+                    br
+                    span.mock dankbar
+                    | und &nbsp;
+                    span.mock zufrieden
+                    | sein,
+                    br
+                    |ist das &nbsp;
+                    span.mock höchste Gut
+                    | im Leben
+                    br
+                    |und schließt alles &nbsp;
+                    span.mock Schöne
+                    | ein.
 
                 p.author Autor Unbekannt
+        #Textbox
+            h2.title Pech
+            div.poem
+                div.text
+                    span.misfortune Pech &nbsp;
+                    | ist gar nicht mal so
+                    input#adv1()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | wird überall
+                    input#verb1()
+                    | .
+                    br
+                    | Vieles kann als&nbsp;
+                    span.misfortune Pech &nbsp;
+                    | uns gelten,
+                    br
+                    | was das Leben uns so lehrt.
+                    br
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist jeder
+                    input#adj1()
+                    input#noun1()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist
+                    input#adj99()
+                    input#noun2()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | sind Tage ohne
+                    input#noun3()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist, wenn man
+                    input#adv2()
+                    input#verb2()
+                    | .
+                    br
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist
+                    input#noun4()
+                    | , wenn es
+                    input#adv3()
+                    | ist,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist
+                    input#noun5()
+                    | nach dem
+                    input#noun6()
+                    | .
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist, wenn ein
+                    input#noun7()
+                    | ein
+                    input#noun8()
+                    input#verb3()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist auch ein
+                    input#adj98()
+                    input#noun9()
+                    | .
+                    br
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist
+                    input#noun10()
+                    | , wenn es
+                    input#adv4()
+                    | ist,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist
+                    input#adj97()
+                    input#noun11()
+                    | .
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist
+                    input#noun12()
+                    | ,
+                    input#clause1()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist eine
+                    input#noun13()
+                    | .
+                    br
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist eine
+                    input#adj96()
+                    input#noun14()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist auch ein
+                    input#adj95()
+                    input#noun15()
+                    | .
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist eine
+                    input#adj94()
+                    input#noun16()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist
+                    input#adj93()
+                    input#noun17()
+                    | .
+                    br
+                    br
+                    span.misfortune Pech &nbsp;
+                    | ist niemals
+                    input#adv5()
+                    | ,
+                    br
+                    span.misfortune Pech &nbsp;
+                    | kennt keine Jahreszeit.
+                    br
+                    span.misfortune Pech &nbsp;
+                    | hat immer der gefunden,
+                    br
+                    | der sich
+                    input#clause2()
+                    | .
+                    br
+                    br
+                    input#clause3()
+                    | ,
+                    input#clause4()
+                    | ,
+                    br
+                    input#adv6()
+                    | und
+                    input#adv7()
+                    | sein,
+                    br
+                    | ist das
+                    input#adj2()
+                    input#noun18()
+                    | im Leben
+                    br
+                    | und schließt alles
+                    input#noun19()
+                    | ein.
+                    p.author #{session.name}
+        #Antwortbox
+            #message.invisible
+                | Fehleranalyse
 
     #Field
         span#balken
         span#hilfe
         span#check
         span#weiter
-            a(href='glueck_gedicht2') WEITER
+            a(href='#') WEITER
