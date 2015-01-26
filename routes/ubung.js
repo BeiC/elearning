@@ -211,26 +211,26 @@ exports.get_zukunft_start = function(req, res){
 
     res.render('zukunft_start',{title:'zukunft_start', maxpoints: 0,maxfaults: 0});
 };
-exports.get_zukunft_task1 = function(req, res){
-    req.session.lastpage = 'zukunft_task1';
-    res.render('zukunft_task1');
+exports.get_zukunft_textverstaendnis_task1 = function(req, res){
+    req.session.lastpage = 'zukunft_textverstaendnis_task1';
+    res.render('zukunft_textverstaendnis_task1');
 };
-exports.get_zukunft_task2 = function(req, res){
-    req.session.lastpage = 'zukunft_task2';
-    res.render('zukunft_task2');
+exports.get_zukunft_ordnung_task1 = function(req, res){
+    req.session.lastpage = 'zukunft_ordnung_task1';
+    res.render('zukunft_ordnung_task1');
 };
-exports.get_zukunft_task3 = function(req, res){
-    req.session.lastpage = 'zukunft_task3';
-    res.render('zukunft_task3');
+exports.get_zukunft_komposita_task1 = function(req, res){
+    req.session.lastpage = 'zukunft_komposita_task1';
+    res.render('zukunft_komposita_task1');
 };
-exports.get_zukunft_task4 = function(req, res){
-    req.session.lastpage = 'zukunft_task4';
-    res.render('zukunft_task4');
+exports.get_zukunft_lueckentext_task1 = function(req, res){
+    req.session.lastpage = 'zukunft_lueckentext_task1';
+    res.render('zukunft_lueckentext_task1');
 };
 
-exports.get_zukunft_task5 = function(req, res){
-    req.session.lastpage = 'zukunft_task5';
-    res.render('zukunft_task5');
+exports.get_zukunft_kreuzwortraetsel_task1 = function(req, res){
+    req.session.lastpage = 'zukunft_kreuzwortraetsel_task1';
+    res.render('zukunft_kreuzwortraetsel_task1');
 };
 
 exports.get_next = function(req, res){
