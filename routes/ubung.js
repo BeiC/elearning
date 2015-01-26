@@ -169,21 +169,21 @@ exports.get_wertewandel_start = function(req, res) {
     req.session.lastpage = 'wertewandel_start';
     res.render('wertewandel_start');
 };
-exports.get_wertewandel_task1 = function(req, res){
-    req.session.lastpage = 'wertewandel_task1';
-    res.render('wertewandel_task1');
+exports.get_wertewandel_textverstaendnis_task1 = function(req, res){
+    req.session.lastpage = 'wertewandel_textverstaendnis_task1';
+    res.render('wertewandel_textverstaendnis_task1');
 };
-exports.get_wertewandel_task2 = function(req, res){
-    req.session.lastpage = 'wertewandel_task2';
-    res.render('wertewandel_task2');
+exports.get_wertewandel_zuordnung_task1 = function(req, res){
+    req.session.lastpage = 'wertewandel_zuordnung_task1';
+    res.render('wertewandel_zuordnung_task1');
 };
-exports.get_wertewandel_task3 = function(req, res){
-    req.session.lastpage = 'wertewandel_task3';
-    res.render('wertewandel_task3');
+exports.get_wertewandel_multiplechoice_task1 = function(req, res){
+    req.session.lastpage = 'wertewandel_multiplechoice_task1';
+    res.render('wertewandel_multiplechoice_task1');
 };
-exports.get_wertewandel_task4 = function(req, res){
-    req.session.lastpage = 'wertewandel_task4';
-    res.render('wertewandel_task4');
+exports.get_wertewandel_lueckentext_task1 = function(req, res){
+    req.session.lastpage = 'wertewandel_lueckentext_task1';
+    res.render('wertewandel_lueckentext_task1');
 };
 exports.get_generationen_start = function(req, res){
     req.session.lastpage = 'generationen_start';
