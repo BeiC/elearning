@@ -72,11 +72,11 @@ app.get('/generationen_komposita_task1', ubung.get_generationen_komposita_task1)
 app.get('/generationen_zuordnung_task1', ubung.get_generationen_zuordnung_task1);
 app.get('/generationen_multiplechoice_task1', ubung.get_generationen_multiplechoice_task1);
 app.get('/glueck_start', ubung.get_glueck_start);
-app.get('/glueck_task1a', ubung.get_glueck_task1a);
-app.get('/glueck_task1b', ubung.get_glueck_task1b);
-app.get('/glueck_task3', ubung.get_glueck_task3);
-app.get('/glueck_task2', ubung.get_glueck_task2);
-app.get('/glueck_task4', ubung.get_glueck_task4);
+app.get('/glueck_gedicht_task1', ubung.get_glueck_gedicht_task1);
+app.get('/glueck_gedicht_task2', ubung.get_glueck_gedicht_task2);
+app.get('/glueck_kreuzwortraetsel_task1', ubung.get_glueck_kreuzwortraetsel_task1);
+app.get('/glueck_interview_task1', ubung.get_glueck_interview_task1);
+app.get('/glueck_redensarten_task1', ubung.get_glueck_redensarten_task1);
 app.get('/handy_start', ubung.get_handy_start);
 app.get('/handy_text', ubung.get_handy_text);
 app.get('/handy_lueckentext_task1', ubung.get_handy_lueckentext_task1);

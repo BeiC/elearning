@@ -50,29 +50,29 @@ exports.get_glueck_start = function(req, res){
     res.render('glueck_start');
 };
 
-exports.get_glueck_task1a = function(req, res){
-    req.session.lastpage = 'glueck_task1a';
-    res.render('glueck_task1a');
+exports.get_glueck_gedicht_task1 = function(req, res){
+    req.session.lastpage = 'glueck_gedicht_task1';
+    res.render('glueck_gedicht_task1');
 };
 
-exports.get_glueck_task1b = function(req, res){
-    req.session.lastpage = 'glueck_task1b';
-    res.render('glueck_task1b');
+exports.get_glueck_gedicht_task2 = function(req, res){
+    req.session.lastpage = 'glueck_gedicht_task2';
+    res.render('glueck_gedicht_task2');
 };
 
-exports.get_glueck_task3 = function(req, res){
-    req.session.lastpage = 'glueck_task3';
-    res.render('glueck_task3');
+exports.get_glueck_kreuzwortraetsel_task1 = function(req, res){
+    req.session.lastpage = 'glueck_kreuzwortraetsel_task1';
+    res.render('glueck_kreuzwortraetsel_task1');
 };
 
-exports.get_glueck_task2 = function(req, res){
-    req.session.lastpage = 'glueck_task2';
-    res.render('glueck_task2');
+exports.get_glueck_interview_task1 = function(req, res){
+    req.session.lastpage = 'glueck_interview_task1';
+    res.render('glueck_interview_task1');
 };
 
-exports.get_glueck_task4 = function(req, res){
-    req.session.lastpage = 'glueck_task4';
-    res.render('glueck_task4');
+exports.get_glueck_redensarten_task1 = function(req, res){
+    req.session.lastpage = 'glueck_redensarten_task1';
+    res.render('glueck_redensarten_task1');
 };
 
 exports.get_handy_start = function(req,res) {
