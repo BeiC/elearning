@@ -1,36 +1,146 @@
-#Inhaltbox {
-  -webkit-box-shadow: 0px 2px 5px darkgrey;
-  -moz-box-shadow: 0px 2px 5px darkgrey;
-  box-shadow: 0px 2px 5px darkgrey;
-  width: 50%;
-  display: table-cell;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(239, 239, 239, 0.59);
-  margin: 10px;
-  color: black; }
+#wrapper {
+    width: 100%;
+    display: table;
+}
+
+#Aufgabe {
+    text-indent: 0;
+    background-color: rgba(159, 255, 177, 0.8);
+    padding: 10px;
+    position: fixed;
+    min-width: 100%;
+    bottom: 0;
+    left: 0;
+    color: #000000;
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px; }
+
+.draggie.ui-draggable-dragging {
+    color: green;
+    font-size: 2em;
+    padding: 5px;
+    margin: 10px;
+    background: rgba(239, 239, 239, 0.59);
+    -webkit-box-shadow: 0px 2px 5px darkgrey;
+    -moz-box-shadow: 0px 2px 5px darkgrey;
+    box-shadow: 0px 2px 5px darkgrey; }
+
+
+#Platzhalter {
+    padding: 10px;
+    display: table-cell;
+    width: 2%;
+}
 
 #Aufgabebox {
-  -webkit-box-shadow: 0px 2px 5px darkgrey;
-  -moz-box-shadow: 0px 2px 5px darkgrey;
-  box-shadow: 0px 2px 5px darkgrey;
-  width: 50%;
-  display: table-cell;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(199, 255, 243, 0.9);
-  margin: 10px;
-  color: black; }
+    -webkit-box-shadow: 0px 2px 5px darkgrey;
+    -moz-box-shadow: 0px 2px 5px darkgrey;
+    box-shadow: 0px 2px 5px darkgrey;
+    width: 30%;
+    display: table-cell;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(7, 10, 255, 0.15);
+    margin: 10px;
+    color: #000000;
+}
+
+#Space_two {
+    display: table-cell;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
 
 #Zeitung {
-  -webkit-box-shadow: 0px 2px 5px darkgrey;
-  -moz-box-shadow: 0px 2px 5px darkgrey;
-  box-shadow: 0px 2px 5px darkgrey;
-  width: 50%;
-  display: table-cell;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(222, 211, 95, 0.94);
-  margin: 10px;
-  color: black; }
+    -webkit-box-shadow: 0px 2px 5px darkgrey;
+    -moz-box-shadow: 0px 2px 5px darkgrey;
+    box-shadow: 0px 2px 5px darkgrey;
+    width: 50%;
+    display: table-cell;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(22, 86, 211, 0.17);
+    margin: 10px;
+    color: #000000;
+}
 
+#Inhalt {
+    box-shadow: 0px 2px 5px darkgrey;
+    width: 20%;
+    display: table-cell;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(247, 255, 228, 0.17);
+    margin: 10px;
+    color: #000000;
+}
+
+#Textbox {
+    width: 45%;
+    display: table-cell;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(229,239,245, 0.8);
+    margin: 10px;
+    color: black;
+    line-height: 30px;
+}
+
+#Antwortbox1, #Antwortbox2,  #Antwortbox3 {
+    -webkit-box-shadow: 0px 2px 5px darkgrey;
+    -moz-box-shadow: 0px 2px 5px darkgrey;
+    box-shadow: 0px 2px 5px darkgrey;
+    display: table-cell;
+    padding: 10px;
+    width: 30%;
+    background-color: rgba(22, 86, 211, 0.17);
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+h2 {
+    text-align: center;
+}
+
+.lek {
+    width: 400px !important;
+    min-width: 400px !important;
+    height: 150px !important;
+    min-height: 150px !important;
+    border: 1px solid black;
+    background: url("../images/blau_rot_veggie.jpg") no-repeat;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.lek p {
+    padding-left: 50px;
+    font-family: Dosis, sans-serif;
+    font-size: 25px;
+    color: #6c00ff;
+}
+
+.lek .gr {
+    padding-left: 35px;
+    padding-top: 30px;
+    color: black;
+}
+#pruefbutton{
+    margin: 10px auto;
+}
+a#pruefen{
+    background-color: #A91211;
+    font-size: 1.3em;
+    color: white;
+    padding: 5px;
+}
+
+a#pruefen:hover{
+    background-color: #005E9C;
+    cursor: pointer;
+}
