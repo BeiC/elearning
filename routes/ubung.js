@@ -98,42 +98,37 @@ exports.get_ersti_start = function(req, res) {
     res.render('ersti_start');
 };
 
-exports.get_ersti_task1 = function(req, res){
-    req.session.lastpage = 'ersti_task1';
-    res.render('ersti_task1');
+exports.get_ersti_gefuehlswoerter_task1 = function(req, res){
+    req.session.lastpage = 'ersti_gefuehlswoerter_task1';
+    res.render('ersti_gefuehlswoerter_task1');
 };
-
-exports.get_ersti_task2 = function(req, res){
-    req.session.lastpage = 'ersti_task2';
-    res.render('ersti_task2');
+exports.get_ersti_universitaet_task1 = function(req, res){
+    req.session.lastpage = 'ersti_universitaet_task1';
+    res.render('ersti_universitaet_task1');
 };
-exports.get_ersti_task2b = function(req, res){
-    req.session.lastpage = 'ersti_task2b';
-    res.render('ersti_task2b');
+exports.get_ersti_universitaet_task2 = function(req, res){
+    req.session.lastpage = 'ersti_universitaet_task2';
+    res.render('ersti_universitaet_task2');
 };
-exports.get_ersti_task2c = function(req, res){
-    req.session.lastpage = 'ersti_task2c';
-    res.render('ersti_task2c');
+exports.get_ersti_universitaet_task3 = function(req, res){
+    req.session.lastpage = 'ersti_universitaet_task3';
+    res.render('ersti_universitaet_task3');
 };
-exports.get_ersti_task2d = function(req, res){
-    req.session.lastpage = 'ersti_task2d';
-    res.render('ersti_task2d');
+exports.get_ersti_synonyme_task1 = function(req, res){
+    req.session.lastpage = 'ersti_synonyme_task1';
+    res.render('ersti_synonyme_task1');
 };
-exports.get_ersti_task3 = function(req, res){
-    req.session.lastpage = 'ersti_task3';
-    res.render('ersti_task3');
+exports.get_ersti_synonyme_task2 = function(req, res){
+    req.session.lastpage = 'ersti_synonyme_task2';
+    res.render('ersti_synonyme_task2');
 };
-exports.get_ersti_task3b = function(req, res){
-    req.session.lastpage = 'ersti_task3b';
-    res.render('ersti_task3b');
+exports.get_ersti_synonyme_task3 = function(req, res){
+    req.session.lastpage = 'ersti_synonyme_task3';
+    res.render('ersti_synonyme_task3');
 };
-exports.get_ersti_task3c = function(req, res){
-    req.session.lastpage = 'ersti_task3c';
-    res.render('ersti_task3c');
-};
-exports.get_ersti_task4 = function(req, res){
-    req.session.lastpage = 'ersti_task4';
-    res.render('ersti_task4');
+exports.get_ersti_lueckentext_task1 = function(req, res){
+    req.session.lastpage = 'ersti_lueckentext_task1';
+    res.render('ersti_lueckentext_task1');
 };
 exports.get_ersti_end = function(req,res) {
     req.session.lastpage = 'ersti_end';
