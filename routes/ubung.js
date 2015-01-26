@@ -143,26 +143,26 @@ exports.get_veggieday_start = function(req, res){
     req.session.lastpage = 'veggieday_start';
     res.render('veggieday_start');
 };
-exports.get_veggieday_task1 = function(req, res){
-    req.session.lastpage = 'veggieday_task1';
-    res.render('veggieday_task1');
+exports.get_veggieday_vegetarismus_task1 = function(req, res){
+    req.session.lastpage = 'veggieday_vegetarismus_task1';
+    res.render('veggieday_vegetarismus_task1');
 };
-exports.get_veggieday_task3 = function(req, res){
-    req.session.lastpage = 'veggieday_task3';
-    res.render('veggieday_task3');
+exports.get_veggieday_metaphern_task1 = function(req, res){
+    req.session.lastpage = 'veggieday_metaphern_task1';
+    res.render('veggieday_metaphern_task1');
 };
 
 exports.get_veggieday_multi = function(req, res){
     req.session.lastpage = 'veggieday_multi';
     res.render('veggieday_multi');
 };
-exports.get_veggieday_task5 = function(req, res){
-    req.session.lastpage = 'veggieday_task5';
-    res.render('veggieday_task5');
+exports.get_veggieday_textverstaendnis_task2 = function(req, res){
+    req.session.lastpage = 'veggieday_textverstaendnis_task2';
+    res.render('veggieday_textverstaendnis_task2');
 };
-exports.get_veggieday_task4 = function(req, res){
-    req.session.lastpage = 'veggieday_task4';
-    res.render('veggieday_task4');
+exports.get_veggieday_textverstaendnis_task1 = function(req, res){
+    req.session.lastpage = 'veggieday_textverstaendnis_task1';
+    res.render('veggieday_textverstaendnis_task1');
 };
 
 exports.get_wertewandel_start = function(req, res) {
