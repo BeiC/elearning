@@ -3,79 +3,79 @@
         "name":"glueck_start", "maxpoints": 0, "maxfaults": 0
     },
     {
-        "name":"glueck_task1a", "maxpoints":0, "maxfaults":0
+        "name":"glueck_gedicht_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"glueck_task1b", "maxpoints":0, "maxfaults":0
+        "name":"glueck_gedicht_task2", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"glueck_task2", "maxpoints":0, "maxfaults":0
+        "name":"glueck_interview_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"glueck_task3", "maxpoints":0, "maxfaults":0
+        "name":"glueck_kreuzwortraetsel_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"glueck_task4", "maxpoints":0, "maxfaults":0
+        "name":"glueck_redensarten_task1", "maxpoints":0, "maxfaults":0
     },
     {
         "name":"handy_start", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"handy_task1", "maxpoints":0, "maxfaults":0
+        "name":"handy_lueckentext_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"handy_task2", "maxpoints":0, "maxfaults":0
+        "name":"handy_gegenteil_task1", "maxpoints":0, "maxfaults":0
     },
     {
         "name":"ersti_start", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"ersti_task1", "maxpoints":0, "maxfaults":0
+        "name":"ersti_gefuehlswoerter_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"ersti_task2", "maxpoints":0, "maxfaults":0
+        "name":"ersti_universitaet_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"ersti_task2b", "maxpoints":0, "maxfaults":0
+        "name":"ersti_universitaet_task2", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"ersti_task2c", "maxpoints":0, "maxfaults":0
+        "name":"ersti_universitaet_task3", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"ersti_task3", "maxpoints":0, "maxfaults":0
+        "name":"ersti_synonyme_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"ersti_task3b", "maxpoints":0, "maxfaults":0
+        "name":"ersti_synonyme_task2", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"ersti_task3c", "maxpoints":0, "maxfaults":0
+        "name":"ersti_synonyme_task3", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"ersti_task4", "maxpoints":0, "maxfaults":0
+        "name":"ersti_lueckentext_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"veggieday_task3", "maxpoints":4, "maxfaults":4
+        "name":"veggieday_metaphern_task1", "maxpoints":4, "maxfaults":4
     },
     {
-        "name":"veggieday_task4", "maxpoints":8, "maxfaults":8
+        "name":"veggieday_textverstaendnis_task1", "maxpoints":8, "maxfaults":8
     },
     {
-        "name":"veggieday_task5", "maxpoints":9, "maxfaults":9
+        "name":"veggieday_textverstaendnis_task2", "maxpoints":9, "maxfaults":9
     },
     {
         "name":"wertewandel_start", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"wertewandel_task1", "maxpoints":0, "maxfaults":0
+        "name":"wertewandel_textverstaendnis_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"wertewandel_task2", "maxpoints":0, "maxfaults":0
+        "name":"wertewandel_zuordnung_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"wertewandel_task3", "maxpoints":0, "maxfaults":0
+        "name":"wertewandel_multiplechoice_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"wertewandel_task4", "maxpoints":0, "maxfaults":0
+        "name":"wertewandel_lueckentext_task1", "maxpoints":0, "maxfaults":0
     },
     {
         "name":"generationen_start", "maxpoints":0, "maxfaults":0
@@ -84,42 +84,42 @@
         "name":"generationen_text", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"generationen_task1", "maxpoints":9, "maxfaults":9
+        "name":"generationen_komposita_task1", "maxpoints":9, "maxfaults":9
     },
     {
-        "name":"generationen_task2", "maxpoints":0, "maxfaults":0
+        "name":"generationen_zuordnung_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"generationen_task3", "maxpoints":0, "maxfaults":0
+        "name":"generationen_multiplechoice_task1", "maxpoints":0, "maxfaults":0
     },
     {
         "name":"zukunft_start", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"zukunft_task1", "maxpoints":20, "maxfaults":5
+        "name":"zukunft_textverstaendnis_task1", "maxpoints":20, "maxfaults":5
     },
     {
-        "name":"zukunft_task2", "maxpoints":6, "maxfaults":10
+        "name":"zukunft_ordnung_task1", "maxpoints":6, "maxfaults":10
     },
     {
-        "name":"zukunft_task3", "maxpoints":4, "maxfaults":10
+        "name":"zukunft_komposita_task1", "maxpoints":4, "maxfaults":10
     },
     {
-        "name":"zukunft_task4", "maxpoints":17, "maxfaults":25
+        "name":"zukunft_lueckentext_task1", "maxpoints":17, "maxfaults":25
     },
     {
-        "name":"zukunft_task5", "maxpoints":0, "maxfaults":0
+        "name":"zukunft_kreuzwortraetsel_task1", "maxpoints":0, "maxfaults":0
     },
     {
         "name":"china_start", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"china_task1", "maxpoints":0, "maxfaults":0
+        "name":"china_textverstaendnis_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"china_task2", "maxpoints":0, "maxfaults":0
+        "name":"china_begriffsverstaendnis_task1", "maxpoints":0, "maxfaults":0
     },
     {
-        "name":"china_task2", "maxpoints":0, "maxfaults":0
+        "name":"china_textverstaendnis_task2", "maxpoints":0, "maxfaults":0
     }
 ]}
