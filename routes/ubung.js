@@ -33,18 +33,17 @@ exports.get_china_start = function(req, res){
     req.session.lastpage = 'china_start';
     res.render('china_start');
 };
-exports.get_china_task1 = function(req, res){
-    req.session.lastpage = 'china_task1';
-    res.render('china_task1');
+exports.get_china_textverstaendnis_task1 = function(req, res){
+    req.session.lastpage = 'china_textverstaendnis_task1';
+    res.render('china_textverstaendnis_task1');
 };
-
-exports.get_china_task2 = function(req, res){
-    req.session.lastpage = 'china_task2';
-    res.render('china_task2');
+exports.get_china_begriffsverstaendnis_task1 = function(req, res){
+    req.session.lastpage = 'china_begriffsverstaendnis_task1';
+    res.render('china_begriffsverstaendnis_task1');
 };
-exports.get_china_task3 = function(req, res){
-    req.session.lastpage = 'china_task3';
-    res.render('china_task3');
+exports.get_china_textverstaendnis_task2 = function(req, res){
+    req.session.lastpage = 'china_textverstaendnis_task2';
+    res.render('china_textverstaendnis_task2');
 };
 exports.get_glueck_start = function(req, res){
     req.session.lastpage = 'glueck_start';
@@ -85,13 +84,13 @@ exports.get_handy_text = function(req, res){
     req.session.lastpage = 'handy_text';
     res.render('handy_text');
 };
-exports.get_handy_task1 = function(req, res){
-    req.session.lastpage = 'handy_task1';
-    res.render('handy_task1');
+exports.get_handy_lueckentext_task1 = function(req, res){
+    req.session.lastpage = 'handy_lueckentext_task1';
+    res.render('handy_lueckentext_task1');
 };
-exports.get_handy_task2 = function(req, res){
-    req.session.lastpage = 'handy_task2';
-    res.render('handy_task2');
+exports.get_handy_gegenteil_task1 = function(req, res){
+    req.session.lastpage = 'handy_gegenteil_task1';
+    res.render('handy_gegenteil_task1');
 };
 
 exports.get_ersti_start = function(req, res) {
@@ -195,20 +194,17 @@ exports.get_generationen_text = function(req, res){
     req.session.lastpage = 'generationen_text';
     res.render('generationen_text');
 };
-
-exports.get_generationen_task1 = function(req, res){
-    req.session.lastpage = 'generationen_task1';
-    res.render('generationen_task1');
+exports.get_generationen_komposita_task1 = function(req, res){
+    req.session.lastpage = 'generationen_komposita_task1';
+    res.render('generationen_komposita_task1');
 };
-
-exports.get_generationen_task2 = function(req, res){
-    req.session.lastpage = 'generationen_task2';
-    res.render('generationen_task2');
+exports.get_generationen_zuordnung_task1 = function(req, res){
+    req.session.lastpage = 'generationen_zuordnung_task1';
+    res.render('generationen_zuordnung_task1');
 };
-
-exports.get_generationen_task3 = function(req, res){
-    req.session.lastpage = 'generationen_task3';
-    res.render('generationen_task3');
+exports.get_generationen_multiplechoice_task1 = function(req, res){
+    req.session.lastpage = 'generationen_multiplechoice_task1';
+    res.render('generationen_multiplechoice_task1');
 };
 exports.get_zukunft_start = function(req, res){
     req.session.lastpage = 'zukunft_start';
